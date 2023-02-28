@@ -1,0 +1,32 @@
+@import 'variables';
+
+body {
+    margin: 5%;
+    background-color: beige;
+}
+
+.cardholder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 10px;
+    box-shadow: 2px 1px 1px $c1;
+    background-color: white;
+
+    h6 {
+        color: darkblue;
+    }
+
+}
+
+.card:hover {
+    box-shadow: 8px 4px 4px $c2;
+}
+
+div {
+    h5 {
+        color: red;
+    }
+}

@@ -1,0 +1,26 @@
+body {
+  margin: 5%;
+  background-color: beige;
+}
+
+.cardholder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 10px;
+  box-shadow: 2px 1px 1px #7cf65e;
+  background-color: white;
+}
+.card h6 {
+  color: darkblue;
+}
+
+.card:hover {
+  box-shadow: 8px 4px 4px #ffa65d;
+}
+
+div h5 {
+  color: red;
+}
