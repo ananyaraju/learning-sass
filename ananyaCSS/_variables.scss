@@ -1,3 +1,34 @@
+@use 'sass:math';
+
 //variables
+
+//colors
 $c1: #7cf65e;
 $c2: #ffa65d;
+
+
+//mapping
+$colors: (
+    "black": black,
+    "white": white,
+    "gray": grey,
+);
+// @debug map-get($colors, "white");
+// @debug map-has-key($colors, "purple");
+// @debug map-has-key($colors, "black");
+// @debug map-remove($colors, "black");
+// @debug map-merge($colors, "pink": #ffc0cb);
+
+
+
+//font sizes
+$font-basesize: 1rem;
+$font-smallsize: math.div($font-basesize, 2);
+$font-medsize: $font-basesize * 1.5;
+$font-largesize: $font-basesize * 2;
+
+//debugging:
+// @debug "hello, this is my debug area";
+// @debug math.floor(10.3);
+// @debug math.max(10px, 20px, 5px, 15px);
+// @debug $font-medsize;
